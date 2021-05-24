@@ -1,0 +1,51 @@
+@media screen and (max-width:991px){
+    .nav-link{
+        padding: 1rem 1.5rem !important;
+    }
+    .form-inline{
+        padding-left: 1.5rem;
+    }
+    .header-content{
+        margin-top: 8.5rem;
+    }
+    .english-video{
+        height: 30rem !important;
+    }
+    .swiper-button-next2, .swiper-button-prev2{
+        position: static !important;
+        display: inline-block !important;
+        margin: 0 1rem;
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width:767px){
+    footer{
+        text-align: center;
+    }
+}
+@media screen and (max-width:575px){
+    .section{
+        padding: 5rem 0;
+    }
+    .courses{
+        width: 6rem;
+    }
+    .header-content h2{
+        font-size: 4rem;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    footer{
+        text-align: center;
+    }
+    #header-section{
+        text-align: center;
+    }
+    .navbar-nav{
+        text-align: left;
+    }
+    .active .nav-link{
+        margin-top: 1rem;
+    }
+}

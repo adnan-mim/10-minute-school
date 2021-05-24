@@ -1,0 +1,296 @@
+/* ================ */
+/* Basic */
+/* ================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    line-height: 1.5;
+}
+html{
+    font-size: 62.5%;
+	scroll-behavior:smooth;
+}
+button:focus,input:focus{
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100% !important
+}
+/* ================ */
+/* Reuseable */
+/* ================ */
+.primary-btn-1{
+    background-color: #2b2553;
+    padding: .7rem 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    border: 1px solid #2b2553;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.primary-btn-1:hover{
+    background-color: #fff;
+    color: #2b2553;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.primary-btn-2{
+    background-color: #ff284f;
+    padding: .7rem 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    border: 1px solid #ff284f;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.primary-btn-2:hover{
+    background-color: #fff;
+    color: #ff284f;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.para-size{
+    font-size: 1.6rem;
+    color: #696969;
+}
+.para-size span{
+    color: #ff284f;
+}
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #34315d;
+    font-weight: 600;
+}
+.heading span{
+    color: #ff284f;
+}
+.swiper-container{
+    cursor: grab;
+}
+/* ================ */
+/* Header */
+/* ================ */
+.fixed-top{
+    z-index: 9999999;
+    background-color: #fff;
+}
+.nav-link{
+    font-size: 1.6rem;
+    color: #342d65;
+    padding: 2rem 1.5rem !important;
+}
+.nav-link:hover{
+    background: #fafafa;
+    color: #342d65;
+}
+.header-content{
+    background: #f7f8fa;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-top: 6.5rem;
+}
+.header-content h2{
+    font-size: 5rem;
+    color: #34315c;
+    font-weight: 600;
+}
+.header-content h2 span{
+    color: #ff284f;
+}
+.courses-box{
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    cursor: pointer;
+}
+.courses-box:hover{
+    background-color: #34315c;
+    color: #fff;
+}
+.courses-box:hover p, .courses-box:hover p span{
+    color: #fff !important;
+}
+.courses{
+    width: 8rem;
+}
+/* ================ */
+/* Skill Development */
+/* ================ */
+.section{
+    padding: 8rem 0;
+}
+.course-details{
+    font-size: 1.6rem;
+    color: #696969;
+}
+.course-details i{
+    font-size: 1.6rem;
+    color: #ff284f;
+}
+.primary-btn-3{
+    background-color: #45c881;
+    border-color: #45c881;
+}
+.primary-btn-3:hover{
+    color: #45c881;
+}
+/* ================ */
+/* Books */
+/* ================ */
+#books-section{
+    background-color: #f7f8fa;
+}
+.swiper-slide{
+    height: auto !important;
+}
+.book-box{
+    background-color: #fff;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    height: 100% !important;
+    cursor: pointer;
+}
+.book-name{
+    font-size: 1.8rem;
+    color: #34315d;
+    font-weight: 700;
+}
+.swiper-button-next1, .swiper-button-prev1{
+    position: static !important;
+    display: inline-block !important;
+    margin: 0 1rem;
+    margin-bottom: 3rem;
+}
+.prev, .next{
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.2);
+}
+.prev:hover, .next:hover{
+    box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.1);
+}
+/* ================ */
+/* Slider */
+/* ================ */
+.slider-img{
+    width: 30rem;
+    max-width: 100%;
+}
+.swiper-button-next2, .swiper-button-prev2{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-button-prev2{
+    left: 10%;
+}
+.swiper-button-next2{
+    right: 10%;
+}
+/* ================ */
+/* Learning */
+/* ================ */
+#learning-section{
+    background-color: #f7f8fa;
+}
+.media-heading{
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Atma', cursive !important;
+    color: #2b2553;
+}
+.learn-box{
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+/* ================ */
+/* Footer */
+/* ================ */
+footer{
+    background-image: linear-gradient(#343441,#120f18);
+}
+.social-icon i{
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 1.5rem;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.social-icon i:hover{
+    color: #ff284f;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.footer-heading{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.links p a{
+    font-size: 1.6rem;
+    color: #f6f6f6;
+}
